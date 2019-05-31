@@ -1,9 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+
 body{
     background-color: #ffffff;
 }
 
 #menu nav ul li a{
-
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
     color: #506a85;
     text-transform: uppercase;
+}
+
+.destaque1{
+    text-align: center;
+    color: #506a85;
+    padding: 85px 285px 0 285px;
+}
+
+.destaque1 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.destaque1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#destaque2{
+    color: #506a85;
+    padding-bottom: 180px;
+}
+
+#destaque2 img{
+    float: left;
+    padding-right: 20px;
+}
+
+.texto{
+    height: 100%;
+    padding: 0 0 0 90px;
+}
+
+.card-body{
+    color: #506a85;
+    text-align: center;
+}
+
+.card-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.card-text{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-group{
+    padding-bottom: 50px;
+}
+
+.card{
+    padding: 15px;
+}
+
+#slide li{
+    padding: 4px;
+}
+
+#slide{
+    padding-bottom: 200px;
+}
+
+#btn{ 
+    padding-bottom: 250px;
+}
+
+#btn a{
+    background-color: #00cc99;
+    color: white;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
 }
