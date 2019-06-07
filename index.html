@@ -7,9 +7,21 @@
 
     <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">    
-  <link rel="stylesheet" href="css/style.css">    
+  <link rel="stylesheet" href="css/style.css">   
+  
+  <!--CSS bxSlider-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
   <link rel="icon" href="img/images/icone-head.png">
+
+  <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+  </script>
+  
     <title>REEN</title>
   </head>
     <body>
@@ -49,8 +61,12 @@
                  <!---End menu-->
                  
                 <!----Banner --->
-        <div id="slider">
-          <img src="img/banner.jpg" alt="" class="img-fluid">
+        <div class="slider" id="carrousel">
+          <div><img src="img/carrousel-1.jpg" /></div>
+          <div><img src="img/carrousel-2.jpg" /></div>
+          <div><img src="img/carrousel-3.jpg" /></div>
+          <div><img src="img/carrousel-4.jpg" /></div>
+          <div><img src="img/carrousel-5.jpg" /></div>
         </div>
 
       <div id=main>
@@ -114,13 +130,14 @@
           </div>
         </div>
   
-        <div class="container">
-          <ul id="slide" class="list-group list-group-horizontal-md">
-            <li class="list-group-item"><img src="img/slide1.jpg"> </li>
-            <li class="list-group-item"><img src="img/slide2.jpg"> </li>
-            <li class="list-group-item"><img src="img/slide3.jpg"> </li>
-            <li class="list-group-item"><img src="img/slide4.jpg"> </li>
-          </ul>
+        <div id="slide" class="container">
+          <div class="row">
+            <div><img src="img/slide1.jpg"></div>
+            <div><img src="img/slide2.jpg"></div>
+            <div><img src="img/slide3.jpg"></div>
+            <div><img src="img/slide4.jpg"></div>
+          </div>
+          
         </div>
 
         <div class="container destaque1">
